@@ -1,0 +1,21 @@
+# Define automatic end-of-line handling for different file types
+* text=auto
+
+# Ensure Jupyter notebooks use LF line endings
+*.ipynb text eol=lf
+
+# Ensure Python scripts use LF line endings
+*.py text eol=lf
+
+# Other file types can be added similarly
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+*.exe binary
